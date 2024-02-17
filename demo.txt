@@ -1,0 +1,279 @@
+{/* Header */}
+<header className="bg-white shadow">
+        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+          <h1 className="text-3xl font-bold text-gray-900">
+            <Image src="/logo.svg" alt="Logo" width={120} height={40} />
+          </h1>
+          <nav className="mt-4">
+            <ul className="flex space-x-6">
+              <li>
+                <a href="#" className="text-gray-500 hover:text-gray-700">
+                  Ứng tuyển làm Reviewer
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-500 hover:text-gray-700">
+                  Chi phí
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-500 hover:text-gray-700">
+                  Liên hê
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+{/* Hero Section */}
+<section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900">
+            Khách hàng thực sự nghĩ gì về sản phẩm của bạn
+          </h2>
+          <p className="mt-4 text-gray-500">
+            Tiết kiệm tối đa thời gian và chi phí phỏng vấn người dùng
+          </p>
+          <div className="mt-6">
+            <button className="bg-green-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-700">
+              Đăng kí ngay
+            </button>
+            <button className="bg-white-600 text-black px-6 py-3 rounded-md shadow-md hover:bg-white-700">
+              Xem thử các tính năng
+            </button>
+          </div>
+        </div>
+      </section>
+
+{/* Testimonials/Reviews */}
+<section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-3xl font-bold text-gray-900 mb-6">
+            Khách hàng của chúng tôi
+          </h3>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {/* Testimonial 1 */}
+            <div className="bg-gray-100 p-6 rounded-md shadow-md">
+              <p className="text-gray-500">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                nisl eros, pulvinar facilisis odio vitae, consectetur
+                bibendum nunc."
+              </p>
+              <div className="mt-6">
+                <p className="text-gray-900">Anh Trần Trung Hiếu</p>
+                <p className="text-gray-500">CEO TopCV</p>
+              </div>
+            </div>
+            {/* Testimonial 2 */}
+            <div className="bg-gray-100 p-6 rounded-md shadow-md">
+              <p className="text-gray-500">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                nisl eros, pulvinar facilisis odio vitae, consectetur
+                bibendum nunc."
+              </p>
+              <div className="mt-6">
+                <p className="text-gray-900">Anh Trần Trung Hiếu</p>
+                <p className="text-gray-500">CEO TopCV</p>
+              </div>
+            </div>
+            {/* Testimonial 3 */}
+            <div className="bg-gray-100 p-6 rounded-md shadow-md">
+              <p className="text-gray-500">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                nisl eros, pulvinar facilisis odio vitae, consectetur
+                bibendum nunc."
+              </p>
+              <div className="mt-6">
+                <p className="text-gray-900">Anh Trần Trung Hiếu</p>
+                <p className="text-gray-500">CEO TopCV</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="bg-gray-100 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">Cam kết đối với khách hàng</h3>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="bg-white p-6 rounded-md shadow-md">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
+                Đáng tin cậy
+              </h4>
+              <p className="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                nisl eros, pulvinar facilisis odio vitae, consectetur bibendum
+                nunc.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-md shadow-md">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
+                Kiểm duyệt chặt chẽ
+              </h4>
+              <p className="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-md shadow-md">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
+                Hỗ trợ 24/7
+              </h4>
+              <p className="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Commitment 1 */}
+      <section className="bg-gray-100 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-3xl font-bold text-gray-900 mb-6">
+            100% Satisfaction Guarantee
+          </h3>
+          <p className="text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            nisl eros, pulvinar facilisis odio vitae, consectetur bibendum nunc.
+            Integer in turpis nisi.
+          </p>
+        </div>
+      </section>
+
+      {/* Product Commitment 2 */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-3xl font-bold text-gray-900 mb-6">
+            Money-Back Guarantee
+          </h3>
+          <p className="text-gray-500">
+            Lorem ipsum dolor sit amet
+          </p>
+        </div>
+      </section>
+
+      {/* Call-to-Action (CTA) */}
+      <section className="bg-blue-600 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
+          <p className="text-gray-200">
+            Sign up now and enjoy 25% off your first order!
+          </p>
+          <button className="bg-white text-blue-600 px-6 py-3 rounded-md shadow-md hover:bg-blue-700 hover:text-white mt-8">
+            Sign Up Now
+          </button>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-green-600 text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div>
+              <h4 className="text-lg font-bold mb-2">Company</h4>
+              <ul>
+                <li className="mb-1">About Us</li>
+                <li className="mb-1">Contact Us</li>
+                <li className="mb-1">Careers</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold mb-2">Product</h4>
+              <ul>
+                <li className="mb-1">Features</li>
+                <li className="mb-1">Testimonials</li>
+                <li className="mb-1">Pricing</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold mb-2">Legal</h4>
+              <ul>
+                <li className="mb-1">Privacy Policy</li>
+                <li className="mb-1">Terms of Service</li>
+                <li className="mb-1">Refund Policy</li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            &copy; {new Date().getFullYear()} GetIns Company Limited. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+
+    'use client'
+import Logo from "@/public/getins_logo.jpg";
+import Image from 'next/image'
+import { useState } from "react";
+
+
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <header className="bg-white shadow">
+      <div className="mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center">
+          <h1 className="text-3xl font-bold text-black-900">
+            <Image src={Logo} alt="GetIns Logo" width={120} height={40} />
+          </h1>
+          <button
+            className="mr-4 lg:hidden focus:outline-none focus:shadow-outline-purple"
+            onClick={toggleMenu}
+          >
+            
+          </button>
+          <nav className={`${isMenuOpen ? "block" : "hidden"} lg:block`}>
+            <ul className="flex space-x-14">
+              <li>
+                <a href="#" className="text-gray-500 hover:text-black-500">
+                  Ứng tuyển làm Reviewer
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-500 hover:text-black-500">
+                  Chi phí
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-500 hover:text-black-500">
+                  Liên hệ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
+
+
+{/* Footer */}
+      <footer className="bg-green-600 text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-8 text-center">
+            &copy; {new Date().getFullYear()} GetIns Company Limited. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    npm i --save @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome@latest
+    npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
