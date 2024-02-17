@@ -1,4 +1,10 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFileCircleCheck,
+  faUserCheck,
+  faComments
+} from "@fortawesome/free-solid-svg-icons";
 
 const Feature = () => {
   return (
@@ -9,6 +15,7 @@ const Feature = () => {
         </h3>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-white p-6 rounded-md shadow-md">
+          <FontAwesomeIcon icon={faUserCheck} className="bg-green-100 text-green-500 w-12 px-3 py-3 mb-4 mr-4 rounded "/>
             <h4 className="text-xl font-bold text-gray-900 mb-2">
               Đáng tin cậy
             </h4>
@@ -19,6 +26,7 @@ const Feature = () => {
             </p>
           </div>
           <div className="bg-white p-6 rounded-md shadow-md">
+          <FontAwesomeIcon icon={faFileCircleCheck} className="bg-green-100 text-green-500 w-12 px-3 py-3 mb-4 mr-4 rounded "/>
             <h4 className="text-xl font-bold text-gray-900 mb-2">
               Kiểm duyệt chặt chẽ
             </h4>
@@ -27,6 +35,7 @@ const Feature = () => {
             </p>
           </div>
           <div className="bg-white p-6 rounded-md shadow-md">
+          <FontAwesomeIcon icon={faComments} className="bg-green-100 text-green-500 w-12 px-3 py-3 mb-4 mr-4 rounded "/>
             <h4 className="text-xl font-bold text-gray-900 mb-2">
               Hỗ trợ 24/7
             </h4>
